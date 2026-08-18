@@ -1,29 +1,54 @@
 # rest-api-documentation
 Developer-focused documentation for a REST API, including endpoints, requests, responses, authentication, and error handling.
 
-# REST API Documentation
+# TaskHub REST API Documentation
 ## Overview
-A developer-focused documentation project for a fictional REST API.
+TaskHub is a fictional REST API for managing users, projects, and tasks within a project management system.
+
+This project demonstrates how developer-focused API documentation can be structured and presented for developers and technical users.
+
+## API Resources
+The API provides endpoints for:
+
+* Users
+* Projects
+* Tasks
 
 ## Documentation
-The documentation will cover:
+* [API Overview](docs/overview.md)
+* [Authentication](docs/authentication.md)
+* [Users](docs/users.md)
+* [Projects](docs/projects.md)
+* [Tasks](docs/tasks.md)
+* [Error Handling](docs/errors.md)
+* [Quick Start](docs/quick-start.md)
 
-* API Overview
-* Authentication
-* Endpoints
-* HTTP Methods
-* Parameters & Headers
-* Request Examples
-* Response Examples
-* JSON Structures
-* Status Codes
-* Error Handling
+## Example Request
+```http
+GET /api/v1/tasks
+```
+
+## Example Response
+
+```json
+{
+  "id": 101,
+  "title": "Write API documentation",
+  "status": "in-progress",
+  "priority": "high"
+}
+```
 
 ## Documentation Status
+
 🚧 In Progress
 
-## Tools
+## Tools & Concepts
+
+* REST APIs
+* HTTP
+* JSON
 * Markdown
 * GitHub
-* REST APIs
-* JSON
+* API Documentation
+
